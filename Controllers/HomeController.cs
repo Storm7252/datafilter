@@ -40,12 +40,12 @@ namespace FilteringData.Controllers
             return View("ShowData", res);
         }
         
-        public IActionResult MonthData(string smonth)
+        public IActionResult MonthData(DateOnly smonth)
         {
             var res = _context.Students.ToList();
-            var requiredmonth = Convert.ToInt32(smonth);
+            //var requiredmonth = Convert.ToInt32(smonth);
             //var months = res.Select(item => item.DOB.Month).ToString();
-            var filtereddata = res.Where(item => item.DOB.Month == requiredmonth).ToList();
+            var filtereddata = res.Where(item => item.DOB.Month == smonth.Month && item.DOB.Year==smonth.Year).ToList();
             return View(filtereddata);
         }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

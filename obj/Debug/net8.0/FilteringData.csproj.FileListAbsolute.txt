@@ -250,3 +250,4 @@ D:\desktop files\Web dev data\FilteringData\bin\Debug\net8.0\runtimes\win\lib\ne
 D:\desktop files\Web dev data\FilteringData\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 D:\desktop files\Web dev data\FilteringData\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 D:\desktop files\Web dev data\FilteringData\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+D:\desktop files\Web dev data\FilteringData\obj\Debug\net8.0\FilteringData.sourcelink.json
