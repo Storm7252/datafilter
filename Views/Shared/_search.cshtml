@@ -1,0 +1,16 @@
+﻿
+
+<h1>Get Month Based Data</h1>
+@* <form asp-action="MonthData" asp-controller="Home" method="post">
+    <label typeof="date" class="control-label"> Enter Your Desired Month from in Numbers</label>
+    <input typeof="date" class="form-control" />
+    <span validation-for="Date" class="text-danger"></span>
+
+    <input type="submit" value="Search" class="btn btn-primary" />
+    
+</form> *@
+<form method="Post" action="@Url.Action("MonthData", "Home")">
+    <label for="smonth">Enter Month:</label>
+    <input type="text" name="smonth" id="smonth" />
+    <input type="submit" value="Filter" />
+</form>
